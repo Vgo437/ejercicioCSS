@@ -78,3 +78,8 @@ color:chocolate
     border-style:hidden;
 }
 
+body{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+}
