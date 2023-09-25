@@ -52,12 +52,8 @@ body {
     text-transform: capitalize;
 }
 
-.opciones {
-    background-color: burlywood;
-    text-transform: capitalize;
-}
 
-#enviar {
+input[id='enviar'] {
     border-width: 5px;
     border-color: brown;
     border-style: double;
@@ -66,12 +62,12 @@ body {
     margin: 15px;
 }
 
-#edad {
+select[id='edad'] {
     background-color: wheat;
     color: brown;
 }
 
-#ciudad {
+select[id='ciudad']{
     background-color: beige;
     color: green;
 }
