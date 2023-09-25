@@ -1,85 +1,84 @@
-.inicio,.crear{
-    background-color: antiquewhite;
-    text-transform: capitalize;
+/* Styles for general elements */
+body {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.opciones{
-    background-color:burlywood;
-    text-transform:capitalize;
-}
-
-.logo h1 ,.inicio h1{
-    color:brown;
-    font-family:'Times New Roman', Times, serif;
+h1 {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    margin:10px;
+    margin: 10px;
 }
-*:not(h1){
+
+*:not(h1) {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
 
-.inicio label,.inicio legend{
-    text-decoration:underline;
-    color:chocolate;
+label, legend {
+    text-decoration: underline;
+    color: chocolate;
 }
 
-.inicio input:not([type='submit']){
+input:not([type='submit']) {
     border-width: 3px;
-    border-color:brown;
-    border-style:dotted;
+    border-color: brown;
+    border-style: dotted;
     border-radius: 5px;
     background-color: bisque;
 }
 
-#enviar{
+img {
+    border-width: 2px;
+    border-color: mediumvioletred;
+    border-style: groove;
+}
+
+fieldset {
+    color: grey;
+}
+
+[type='submit'] {
+    border-width: 3px;
+    border-color: blueviolet;
+    color: maroon;
+}
+
+/* Styles for elements with specific backgrounds and colors */
+body {
+    background-color: antiquewhite;
+    text-transform: capitalize;
+}
+
+.opciones {
+    background-color: burlywood;
+    text-transform: capitalize;
+}
+
+#enviar {
     border-width: 5px;
     border-color: brown;
     border-style: double;
-    color:green;
-    background-color:wheat;
+    color: green;
+    background-color: wheat;
     margin: 15px;
 }
 
-.inicio img,.crear img{
-    border-width: 2px;
-    border-color:mediumvioletred;
-    border-style:groove;
-}
-
-.crear label:not(:last-child){
-text-decoration: underline;
-color:chocolate
-}
-
-.crear fieldset,.inicio fieldset{
-    color:grey;
-}
-
-.crear [type='submit']{
-    border-width: 3px;
-    border-color: blueviolet;
-    color:maroon;
-}
-
-#edad{
+#edad {
     background-color: wheat;
-    color:brown;
-}
-#ciudad{
-    background-color:beige;
-    color:green;
+    color: brown;
 }
 
-.crear input:not([type='submit']){
+#ciudad {
+    background-color: beige;
+    color: green;
+}
+
+input:not([type='submit']) {
     margin: 10px;
-    background-color:white;
+    background-color: white;
     border-width: 3px;
-    border-style:hidden;
-}
-
-body{
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
+    border-style: hidden;
 }
